@@ -15,6 +15,6 @@ for(var i=0;i<navMenuAnchorTags.length;i++){
            window.scrollBy(0,50);
 
 
-		},100)
+		},60)
 	})
 }
