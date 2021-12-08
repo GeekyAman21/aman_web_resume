@@ -5,7 +5,7 @@ body{
 #body-header{
 	height: 65vh;
 	opacity: 0.8;
-	background-image: url("backimg.jpg");
+	background-image: url("statics/backimg.jpg");
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -17,7 +17,7 @@ body{
 }
 .horizontal-list li{
 	display:inline-block;
-	margin:0px 10px;
+	margin:15px 10px;
 }
 .horizontal-list li a{
 	color: white;
@@ -32,6 +32,13 @@ body{
 
 .text-center{
 	text-align: center;
+}
+.text-dsgn{
+    font-family: initial;
+    font-style: italic;
+    font-weight: 400;
+    color:black;
+    margin-left: 10px;
 }
 #name-social-container{
 	margin-top: 20vh;
@@ -141,7 +148,7 @@ body{
 	.timeline{
 		
 		width:75%;
-		border:2px solid black;
+		/*border:2px solid black;*/
         position: relative;
 	}
 	.timeline-box{
@@ -149,12 +156,15 @@ body{
 		width:40%;
 		left:5%;
         min-height: 160px;
-        border:2px solid black;
+      /*  border:2px solid black;*/
         margin: 5px;
-
+      /*  background-image: url("statics/istockphoto-887755698-612x612.jpg");
+        background-size: cover;*/
+        background-color: orange;
+       
 	}
 	.timeline-box:nth-child(2n){
-		left:53%;
+		left:53%; 
 	}
 	.timeline-divider{
 		width:0px;
